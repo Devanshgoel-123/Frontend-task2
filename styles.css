@@ -1,0 +1,298 @@
+body{
+  font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+.top-container{
+  position: relative;
+  background-color: white;
+  height: 100px;
+}
+.middle-container{
+  text-align: center;
+  background-color: white;
+}
+.second-container{
+  text-align: center;
+  }
+.Fourth-container{
+  position: relative;
+}
+.fifth-container{
+  text-align: center;
+  position: relative;
+  color: black;
+}
+.story{
+  width:30%;
+}
+.story1{
+  position: absolute;
+  margin-left: 10rem;
+
+}
+.story1text{
+  position: absolute;
+  top: 3rem;
+}
+
+.personname1{
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  color: #ad7910;
+}
+.personname2{
+  position: absolute;
+  top: 10rem;
+  left: 1.5rem;
+  color: #ad7910;
+}
+.story2{
+  position: absolute;
+  right: 10rem;
+}
+.story2text{
+  position: absolute;
+  top: 3rem;
+  color:#52514f ;
+}
+.story3{
+  position: absolute;
+  left: 10rem;
+}
+.story3text{
+  position: absolute;
+  top: 12rem;
+}
+.story4{
+  position: absolute;
+  right: 10rem;
+}
+.story4text{
+  position: absolute;
+  top: 12rem;
+  color: #000000;
+
+}
+.middle-text{
+  padding-top: 80px;
+  margin : 0 220px;
+  line-height: 3.5rem;
+  width:65%;
+  font-size: 3.5rem;
+  color: #52514f;
+  font-family: inter;
+  font-weight: bolder;
+}
+.mid-text-para{
+  font-size: 1.2rem;
+  width: 35%;
+  padding-top: 5px;
+  margin-left: 450px;
+  font-weight: bolder;
+  color: grey;
+  margin-bottom: 80px;
+  line-height: 1.8rem;
+}
+.second-text{
+  padding-top: 40px;
+  font-weight:bolder;
+}
+.second-text-para{
+  padding-top: 5px;
+  margin : auto;
+  line-height: 1.8rem;
+  width:47%;
+  font-size: 1.1rem;
+  color: #52514f;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.ImagesDiv{
+  display: relative;
+  padding-top: 50px;
+  padding-left: 15rem;
+  color:#52514f;
+}
+.image-text1{
+  width:16rem;
+  display: inline-block;
+  margin-left: 4rem;
+  margin-top: 0;
+}
+.image-text2{
+  width:16rem;
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+.image-text3{
+  width:16rem;
+  display: inline-block;
+  margin-left: 2.5rem;
+    color: #52514f;
+}
+.threeimages{
+  display: absolute;
+  width: 16rem;
+  height: 16rem;
+  margin-left: 50px;
+}
+span{
+  color: #ad7910;
+  font-weight:bolder;
+}
+.top-line{
+  position:absolute;
+  margin-top: 1.8rem;
+  margin-left: 5rem;
+  font-size: 1rem;
+}
+.links{
+  position: absolute;
+  right:12rem;
+  margin-top: 1.8rem;
+}
+
+.btn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+
+  font-family: Arial;
+  color: #888888;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  border-color: white;
+}
+
+.btn:hover {
+  border-bottom-style: solid;
+
+    border-color: #E0E0E0;
+}
+a:hover{
+  color:black;
+
+}
+.size{
+  font-size: 0.9rem;
+  font-weight: 450;
+  margin-left: 1px;
+}
+.btn2 {
+  background: #247a73;
+  background-image: -webkit-linear-gradient(top, #247a73, #247a73);
+  background-image: -moz-linear-gradient(top, #247a73, #247a73);
+  background-image: -ms-linear-gradient(top, #247a73, #247a73);
+  background-image: -o-linear-gradient(top, #247a73, #247a73);
+  background-image: linear-gradient(to bottom, #247a73, #247a73);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #fffcff;
+  font-size: 0.9rem;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #075747;
+  background-image: -webkit-linear-gradient(top, #075747, #075747);
+  background-image: -moz-linear-gradient(top, #075747, #075747);
+  background-image: -ms-linear-gradient(top, #075747, #075747);
+  background-image: -o-linear-gradient(top, #075747, #075747);
+  background-image: linear-gradient(to bottom, #075747, #075747);
+  text-decoration: none;
+  color: white;
+}
+.btn3 {
+  background: #b57c09;
+  background-image: -webkit-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -moz-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -ms-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -o-linear-gradient(top, #b57c09, #b57c09);
+  background-image: linear-gradient(to bottom, #b57c09, #b57c09);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #fffcff;
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  margin-top: 50px;
+
+}
+
+.btn3:hover {
+  background: #7a6602;
+  background-image: -webkit-linear-gradient(top, #7a6602, #7a6602);
+  background-image: -moz-linear-gradient(top, #7a6602, #7a6602);
+  background-image: -ms-linear-gradient(top, #7a6602, #7a6602);
+  background-image: -o-linear-gradient(top, #7a6602, #7a6602);
+  background-image: linear-gradient(to bottom, #7a6602, #7a6602);
+  text-decoration: none;
+}
+img{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.Fourth-container{
+  background-color:#e6e6d8;
+  padding-top: 50px;
+  text-align: center;
+  height: 60rem;
+}
+.images8{
+  display: absolute;
+  width: 14rem;
+  height: 14rem;
+  margin: 0.5rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+
+}
+.Bottom-images{
+  background-color: #e6e6d8;
+  width: 60%;
+  position: absolute;
+  left: 16rem;
+}
+.lastbutton{
+  position: absolute;
+  top: 57rem;
+  background: #b57c09;
+  background-image: -webkit-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -moz-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -ms-linear-gradient(top, #b57c09, #b57c09);
+  background-image: -o-linear-gradient(top, #b57c09, #b57c09);
+  background-image: linear-gradient(to bottom, #b57c09, #b57c09);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #fffcff;
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  left: 35rem;
+
+}
+.Success-link{
+  position: absolute;
+  top: 27rem;
+  left: 33rem;
+  color:#330000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 5rem;
+}
